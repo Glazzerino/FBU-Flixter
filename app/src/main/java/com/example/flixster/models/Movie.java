@@ -15,18 +15,22 @@ public class Movie {
     String posterPath;
     String title;
     String description;
-
+    float rating;
     String backdropPath;
+    int id;
+    String videoPath;
 
-    public Movie() {
-
-    }
+    //Required by parceler
+    public Movie() {}
 
     public Movie(JSONObject json) throws JSONException {
         this.posterPath = json.getString("poster_path");
         this.title = json.getString("title");
         this.description = json.getString("overview");
         this.backdropPath = json.getString("backdrop_path");
+        this.rating = json.getInt("vote_average");
+        this.id = json.getInt("id");
+        //this.videoPath = json.get
     }
 
     public static List<Movie> fromJsonArray(JSONArray jsonArray) throws JSONException {
@@ -51,4 +55,11 @@ public class Movie {
     public String getDescription() {
         return description;
     }
+
+    public float getRating() {
+        return rating;
+    }
+
+    public int getId() {return id; }
+
 }
