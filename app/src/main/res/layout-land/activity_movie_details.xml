@@ -11,20 +11,20 @@
         android:id="@+id/tvTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="8dp"
         android:text="Title"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ivVideo" />
+        app:layout_constraintHorizontal_bias="0.121"
+        app:layout_constraintStart_toEndOf="@+id/ivVideo"
+        app:layout_constraintTop_toTopOf="@+id/ivVideo" />
 
     <RatingBar
         android:id="@+id/ratings"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="16dp"
         android:clickable="false"
         android:isIndicator="true"
         android:mirrorForRtl="false"
@@ -32,37 +32,40 @@
         android:progressTint="#FB9F00"
         android:stepSize="0.5"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.916"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvTitle" />
 
     <TextView
         android:id="@+id/tvDesc"
-        android:layout_width="306dp"
-        android:layout_height="wrap_content"
+        android:layout_width="238dp"
+        android:layout_height="107dp"
         android:layout_marginTop="28dp"
+        android:layout_marginEnd="24dp"
         android:maxWidth="200dp"
         android:maxHeight="200dp"
         android:text="Description"
-        android:textAlignment="center"
+        android:textAlignment="viewStart"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.672"
+        app:layout_constraintStart_toEndOf="@+id/ivVideo"
         app:layout_constraintTop_toBottomOf="@+id/ratings"
         app:layout_constraintVertical_bias="0.0" />
 
     <ImageView
         android:id="@+id/ivVideo"
-        android:layout_width="295dp"
-        android:layout_height="165dp"
-        android:layout_marginTop="28dp"
+        android:layout_width="411dp"
+        android:layout_height="247dp"
         android:maxWidth="295dp"
-        android:maxHeight="165dp"
+        android:maxHeight="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.408"
         tools:srcCompat="@tools:sample/backgrounds/scenic" />
 
     <ImageView

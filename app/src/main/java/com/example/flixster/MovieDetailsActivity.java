@@ -45,6 +45,7 @@ public class MovieDetailsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_movie_details);
 
+
         videoKey = "";
         mvApiKey = getString(R.string.api_key_moviedb);
         ytKey = getString(R.string.api_key_youtube);
