@@ -33,7 +33,7 @@ Here's a walkthrough of implemented user stories:
 
 <img src='https://i.imgur.com/i7ah5mR.gif' title='Video Walkthrough (Potrait)' width='160px' alt='Video Walkthrough' />
 <img src='https://i.imgur.com/153TxBV.gif' title='Video Walkthrough (Landscape)' width='300px' alt='Video Walkthrough in landscape mode' />
-<img src='https://i.imgur.com/19QSO6P.mp4' title='Youtube' width='' alt='Youtube Showcase' />
+[Youtube integration](https://i.imgur.com/BeDBvHx.mp4)
 GIF created with [LiceCap](https://www.cockos.com/licecap/).
 
 ## Notes
