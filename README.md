@@ -25,7 +25,7 @@ The following **stretch** features are implemented:
 The following **additional** features are implemented:
 
 * [X] "Play" video button visible only if there's a youtube video available
-* [X] Long movie descriptions are scrollable (Movie details activity)
+* [X] Long movie descriptions support Scroll mode (Movie details activity)
 
 ## Video Walkthrough
 
@@ -34,7 +34,6 @@ Here's a walkthrough of implemented user stories:
 <img src='https://i.imgur.com/i7ah5mR.gif' title='Video Walkthrough (Potrait)' width='' alt='Video Walkthrough' />
 <img src='https://imgur.com/a/DMZ3jer' title='Video Walkthrough (Landscape)' width='' alt='Video Walkthrough in landscape mode' />
 <img src='https://i.imgur.com/19QSO6P.mp4' title='Youtube' width='' alt='Youtube Showcase' />
-
 GIF created with [LiceCap](https://www.cockos.com/licecap/).
 
 ## Notes
